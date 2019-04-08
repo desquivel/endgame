@@ -5,10 +5,10 @@ import java.util.Date;
 public class LineaCaptura {
 
     String lineaCaptura;
-    Date vigengia;
+    Date vigencia;
     String tipoPago;
     String idTipo;
-    String referenica;
+    String referencia;
     Integer importe;
     Integer tipoValidacion;
     String rfc;
@@ -22,12 +22,12 @@ public class LineaCaptura {
         this.lineaCaptura = lineaCaptura;
     }
 
-    public Date getVigengia() {
-        return vigengia;
+    public Date getVigencia() {
+        return vigencia;
     }
 
-    public void setVigengia(Date vigengia) {
-        this.vigengia = vigengia;
+    public void setVigencia(Date vigencia) {
+        this.vigencia = vigencia;
     }
 
     public String getTipoPago() {
@@ -46,12 +46,12 @@ public class LineaCaptura {
         this.idTipo = idTipo;
     }
 
-    public String getReferenica() {
-        return referenica;
+    public String getReferencia() {
+        return referencia;
     }
 
-    public void setReferenica(String referenica) {
-        this.referenica = referenica;
+    public void setReferencia(String referencia) {
+        this.referencia = referencia;
     }
 
     public Integer getImporte() {
